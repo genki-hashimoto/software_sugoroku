@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define NAME_SIZE 16
+
+#define P_ACTIVE 0
+#define P_GOAL 1
+
+typedef struct player{
+  int id;
+  char name[NAME_SIZE];
+  int dice;
+  int real_p;
+  int study_p;
+  int pl_sta;
+  struct player *next;
+  struct board
+int main(void)
